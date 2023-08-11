@@ -1,0 +1,59 @@
+.boxMenu {
+    width: 250px;
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.headerMenu {
+    color: #fff;
+    background: red;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menuList {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.menuSubItem {
+    padding: 0 20px;
+    text-decoration: none;
+    color: orange;
+}
+
+.menuBox {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.itemMenuIcon {
+    /* Thiết lập kích thước và khung viền */
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    /* Điều chỉnh vị trí của mũi tên */
+    transform-origin: center;
+}
+
+.menuItemactive {
+    transform: rotate(-45deg);
+}
