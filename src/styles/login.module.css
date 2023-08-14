@@ -1,0 +1,17 @@
+.loginContainer{
+   width: 100vw;
+   height: 100vh;
+   display: flex;align-items: center;
+   justify-content: center;
+   background: url('https://getwallpapers.com/wallpaper/full/4/5/8/1486279-download-free-one-piece-wallpaper-1920x1080-1920x1080-screen.jpg') no-repeat ;
+   background-size: cover; /* Tùy chỉnh kích thước hình ảnh để che đậy toàn bộ phần nền */
+   background-position: center center; 
+  }
+
+
+.boxContainer{ width: 500px; background: green; display: flex; flex-direction: column; gap: 10px; padding: 20px; align-items: center; }
+.boxContainer form{width: 100%;}
+.loginTitle{font-weight: bold; font-size: 24px;}
+.boxInput{display: flex; flex-direction: column; gap: 10px; width: 100%; margin-bottom: 10px;}
+.boxInput input{padding: 8px 16px;}
+.boxContainer form button{margin-left: auto; display: flex; justify-content: flex-end; padding: 8px 16px; font-weight: bold; cursor: pointer;}
