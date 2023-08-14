@@ -1,3 +1,4 @@
 .pageBox {
     display: flex;
+    gap: 20px
 }

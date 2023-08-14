@@ -1,0 +1,63 @@
+.formContainer {
+    width: 100%;
+    padding: 20px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.formItem .inputText {
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #888
+}
+
+.formItem .inputFile {
+    width: 100%;
+}
+
+.itemThree {
+    width: calc((100% - 20px)/3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemTwo {
+    width: calc((100% - 10px)/2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemThree .inputInsert,
+.itemTwo .inputInsert {
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #888
+}
+
+.btnCreate {
+    margin: 10px 20px;
+    margin-left: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #888;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+}

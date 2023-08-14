@@ -1,0 +1,135 @@
+/* Header action */
+
+.tableAction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tableActionLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.tableActionLeft .tableSearch {
+    border: 1px solid #ccc;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableActionLeft .tableSearch input {
+    padding: 8px 12px;
+}
+
+.tableActionLeft .tableSearch .searchBtn {
+    cursor: pointer;
+    background: green;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+.tableActionLeft .tableSort {
+    width: 200px;
+}
+
+.tableActionLeft .tableSort select {
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.tableActionRight .tableBtnAdd {
+    background: yellowgreen;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tableContainer {
+    width: 100%;
+    padding: 20px;
+}
+
+.tableHeader {
+    display: flex;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.tableRow {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Các lớp CSS cho từng cột */
+
+.colunmName {
+    flex: 1;
+    text-align: center;
+}
+
+.colunmImage {
+    flex: 0.5;
+    text-align: center;
+}
+
+.colunmOrder {
+    flex: 0.2;
+    text-align: center;
+}
+
+.colunmView {
+    flex: 0.2;
+    text-align: center;
+}
+
+.colunmStatus {
+    flex: 0.2;
+    text-align: center;
+}
+
+.coulunmBtn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+
+/* Các lớp CSS cho các nút */
+
+.btnEdit {
+    background: rgb(68, 68, 204);
+    color: #fff;
+    border: none;
+    padding: 2px 4px;
+    /* CSS cho nút "Sửa" */
+}
+
+.btnDelete {
+    background: rgb(228, 53, 53);
+    color: #fff;
+    border: none;
+    padding: 2px 4px;
+    /* CSS cho nút "Xóa" */
+}
+
+.btnImage {
+    background: rgb(21, 21, 9);
+    color: #fff;
+    border: none;
+    padding: 2px 4px;
+    /* CSS cho nút "Ảnh" */
+}
