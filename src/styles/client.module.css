@@ -1,0 +1,42 @@
+
+
+
+.WImage {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.WImage img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+}
+
+.WImage::before {
+    content: '';
+    display: block;
+    padding-bottom: 56.25%;
+}
+/* 
+
+:root{
+    --black: #000;
+    --bg-pink: #F18E8E;
+} */
+
+.boxHeader{display: flex;justify-content: space-between;}
+.logo{width: 150px; height: 150px;}
+.boxMenu{display: flex;align-items: center; gap: 30px;}
+.boxMenu li{list-style: none;}
+.boxMenu li .itemMenu{text-decoration: none; color: #000; font-size: 18px; font-weight: 500;}
+.introduceHomepage{display: flex;gap: 30px; align-items: center;}
+.introduceHomepage .introduceLeft{width: 400px;}
+.introduceHomepage .introduceRight{width: calc(100% - 430px);}
+/* .introduceHomepage .introduceRight img{width: 100%;} */
+.introduceRight .WImage::before{padding-bottom: 82.2%;}
+.introduceHomepage .introduceLeft .textLeft{margin-bottom: 10px;}
+.introduceHomepage .introduceLeft .btnLeft{text-align: center; padding: 8px 12px; border: 1px solid #000; border-radius: 12px; background: none; outline: none; margin: 0 auto; cursor: pointer;}
